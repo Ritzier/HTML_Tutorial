@@ -1,0 +1,122 @@
+<html>
+<head>
+    <title>Table</title>
+</head>
+<body>
+    <p><strong>tr</strong>: Table Row element</p>
+    <p><strong>th</strong>: Table Heading</p>
+    <p><strong>td</strong>: Table Data</p>
+    <h2>personal finances</h2>
+
+    <table border="2px" height="150px" width="60px">
+        <tr bgcolor="grey" align="center">
+            <th>Month:</th>
+            <th>January</th>
+            <th>February</th>
+            <th>March</th>
+            <th>April</th>
+        </tr>
+        <tr bgcolor="yellow" align="center">
+            <th>Income:</th>
+            <td>$1500</td>
+            <td>$1750</td>
+            <td>$1250</td>
+            <td>$500</td>
+        </tr>
+        <tr bgcolor="tomato" align="center">
+            <th>Expenses:</th>
+            <td>-$500</td>
+            <td>-$1000</td>
+            <td>-$750</td>
+            <td>-$150</td>
+        </tr>
+        <tr bgcolor="green" align="center">
+            <th>Saving:</th>
+            <td>$1000</td>
+            <td>$750</td>
+            <td>$500</td>
+            <td>$350</td>
+        </tr>
+    </table>
+
+    <br />
+    <hr />
+
+    <h3>A simple table</h3>
+    <table border="1px" height="100px" width="100px">
+        <tr width="50%" height="50%">
+            <th>1</th>
+            <th>2</th>
+        </tr>
+        <tr width="50%" height="50%">
+            <th>3</th>
+            <th>4</th>
+        </tr>
+    </table>
+
+    <h4>1 add colspan2</h4>
+     <table border="1px" height="100px" width="100px">
+        <tr>
+            <th colspan="2">1</th>
+            <th>2</th>
+        </tr>
+        <tr>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+    </table>
+
+    <h4>1 add rowspan2</h4>
+     <table border="1px" height="100px" width="100px">
+        <tr>
+            <th rowspan="2">1</th>
+            <th>2</th>
+        </tr>
+        <tr>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+    </table>
+
+    <br />
+    <hr />
+    <h3>Sample</h3>
+    <p>style="border-collapse"</p>
+
+    <table border="1px" style="border-collapse:collapse">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>57</td>
+        </tr>
+    </table>
+
+    <hr />
+    <table border="1px" style="border-collapse:collapse">
+        <tr>
+            <th rowspan="2">Name</th>
+            <th>Jill</th>
+            <th>Eve</th>
+        </tr>
+        <tr>
+            <th>Smith</th>
+            <th>Jackson</th>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <th>43</th>
+            <th>57</th>
+        </tr>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<html>
+<head>
+    <style></style>
+</head>
+
+<body>
+    <form>
+
+        <!--
+            type:
+                text
+                number
+                password
+                email
+                radio
+                range
+                checkbox
+                date
+                file
+                submit
+                reset
+        -->
+
+        <label for="first_name">First Name:</label>
+        <input type="text" id="fisrt_name" name="first_name" placeholder="Spongebob" />
+
+        <br /><br />
+
+        <label for="first_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Squarepants" />
+
+        <br /><br />
+        <lable for="title">Title: </lable>
+        <lable for="Mr.">Mr.</lable>
+        <input type="radio" value="Mr." id="Mr." name="Title"/>
+        <lable for="Mrs.">Mrs.</lable>
+        <input type="radio" value="Mrs." id="Mrs." name="Title"/>
+        <lable for="Miss.">Miss.</lable>
+        <input type="radio" value="Miss." id="Miss." name="Title"/>
+        <lable for="PhD.">PhD.</lable>
+        <input type="radio" value="PhD." id="PhD." name="Title"/>
+
+        <br /><br />
+
+        <label for="payment">Payment:</label>
+        <select id="payment">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="giftcard">Giftcard</option>
+            <option value="check">Check</option>
+        </select>
+
+        <br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@domain.com" />
+
+        <br /><br />
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" min="1900-01-01" />
+
+        <br /><br />
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="99" value="1"/>
+
+        <br /><br />
+
+        <label for="phone">Phone #:</label>
+        <input type="tel" id="phone" name="phone" />
+
+        <br /><br />
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" max="12" />max 12 characters
+
+        <br /><br />
+
+        <label for="slider">Rate us:</label>
+        1<input type="range" step="25" value="100"/>5
+
+        <br /><br />
+
+        <label for="subscribe">Subscribe</label>
+        <input type="checkbox" id="subscribe" name="subscribe" />
+
+        <br /><br />
+
+        <label for="myfile">Upload a file:</label>
+        <input type="file" id="myfile" name="myfile" />
+
+        <br /><br />
+
+        <input type="submit" /> <input type="reset" />
+
+    </form>
+</body>
+</html>
